@@ -1,0 +1,60 @@
+.copiryit-text {
+	position: absolute;
+	z-index: 100;
+	bottom: 8px;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 500px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	pointer-events: none;
+	transition: top 0.3s ease;
+	z-index: 9;
+	@media (max-width: 839.98px) {
+		bottom: 190px;
+	}
+	@media (max-width: 479.98px) {
+		font-size: 10px;
+	}
+	.opened-fullscreen & {
+		bottom: 40px;
+
+		@media (max-width: 839.98px) {
+			bottom: 30px;
+		}
+	}
+	.fake-fullscreen & {
+		bottom: 40px;
+
+		@media (max-width: 839.98px) {
+			bottom: 30px;
+		}
+	}
+	.fancybox__footer & {
+		top: auto;
+		bottom: 10px;
+	}
+	.fake-fullscreen-active & {
+		top: auto;
+		bottom: 10px;
+	}
+}
+
+.fancybox__footer {
+	z-index: 22;
+}
+
+.fancybox__thumbs.is-horizontal {
+	// padding-bottom: 26px;
+	bottom: 0;
+
+	.f-thumbs__viewport {
+		padding-bottom: 26px;
+	}
+}

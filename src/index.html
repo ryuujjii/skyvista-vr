@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+@@include('html/head.html',{ "title":"Sky Vista" })
+
+<!-- .disable-scroll -->
+
+<body class="">
+
+	@@include('html/components/loader.html')
+	<div id="turn" class="turn">
+		Please rotate your device<br />for best experience
+		<br />
+		<br />
+	</div>
+	@@include('html/components/header.html')
+
+	<main class="main">
+		@@include('html/sections/intro.html')
+		@@include('html/sections/footer.html')
+	</main>
+
+	<!-- Popups -->
+	@@include('html/popups/video.html')
+	@@include('html/popups/payment.html')
+	@@include('html/popups/developer.html')
+	@@include('html/popups/brochure.html')
+	@@include('html/popups/offer.html')
+
+	@@include('html/popups/privacy.html')
+	@@include('html/sections/modal360.html')
+	@@include('html/popups/gallery.html')
+	
+	<!-- @@include('html/popups/popup.html') -->
+
+	<script src="js/app.min.js"></script>
+	<script type="module" src="https://fnst.axflare.com/landings/global-script/landings-global-script.js"></script>
+</body>
+
+</html>

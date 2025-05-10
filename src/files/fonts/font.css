@@ -1,0 +1,111 @@
+/* Title */
+/* @font-face {
+    font-family: 'Bw-gradual';
+    src: url('./BW-Gradual/BwGradual-Bold.otf');
+    src: local('BwGradual-Bold'), local('BwGradual-Bold'),
+        url('./BW-Gradual/BwGradual-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bw-gradual';
+    src: url('./BW-Gradual/BwGradual-Medium.otf');
+    src: local('BwGradual-Medium'), local('BwGradual-Medium'),
+        url('./BW-Gradual/BwGradual-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bw-gradual';
+    src: url('./BW-Gradual/BwGradual-Regular.otf');
+    src: local('BwGradual-Regular'), local('BwGradual-Regular'),
+        url('./BW-Gradual/BwGradual-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+} */
+
+/* Text */
+/* @font-face {
+    font-family: 'Bw-nista';
+    src: url('./BwNista-international/BwNistaInternational-Light.otf');
+    src: local('BwNistaInternational-Light'), local('BwNistaInternational-Light'),
+        url('./BwNista-international/BwNistaInternational-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bw-nista';
+    src: url('./BwNista-international/BwNistaInternational-Regular.otf');
+    src: local('BwNistaInternational-Regular'), local('BwNistaInternational-Regular'),
+        url('./BwNista-international/BwNistaInternational-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bw-nista';
+    src: url('./BwNista-international/BwNistaInternational-Medium.otf');
+    src: local('BwNistaInternational-Medium'), local('BwNistaInternational-Medium'),
+        url('./BwNista-international/BwNistaInternational-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bw-nista';
+    src: url('./BwNista-international/BwNistaInternational-Bold.otf');
+    src: local('BwNistaInternational-Bold'), local('BwNistaInternational-Bold'),
+        url('./BwNista-international/BwNistaInternational-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+} */
+
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./montserrat/Montserrat-Bold.ttf');
+    src: local('Montserrat-Bold'), local('Montserrat-Bold'),
+        url('./montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./montserrat/Montserrat-SemiBold.ttf');
+    src: local('Montserrat-SemiBold'), local('Montserrat-SemiBold'),
+        url('./montserrat/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./montserrat/Montserrat-Medium.ttf');
+    src: local('Montserrat-Medium.ttf'), local('Montserrat-Medium.ttf'),
+        url('./montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./montserrat/Montserrat-Regular.ttf');
+    src: local('Montserrat-Regular.ttf'), local('Montserrat-Regular.ttf'),
+        url('./montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./montserrat/Montserrat-Light.ttf');
+    src: local('Montserrat-Light.ttf'), local('Montserrat-Light.ttf'),
+        url('./montserrat/Montserrat-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}

@@ -1,0 +1,64 @@
+.copiryit-text {
+  position: absolute;
+  z-index: 100;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 500px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  pointer-events: none;
+  transition: top 0.3s ease;
+  z-index: 9;
+}
+@media (max-width: 839.98px) {
+  .copiryit-text {
+    bottom: 190px;
+  }
+}
+@media (max-width: 479.98px) {
+  .copiryit-text {
+    font-size: 10px;
+  }
+}
+.opened-fullscreen .copiryit-text {
+  bottom: 40px;
+}
+@media (max-width: 839.98px) {
+  .opened-fullscreen .copiryit-text {
+    bottom: 30px;
+  }
+}
+.fake-fullscreen .copiryit-text {
+  bottom: 40px;
+}
+@media (max-width: 839.98px) {
+  .fake-fullscreen .copiryit-text {
+    bottom: 30px;
+  }
+}
+.fancybox__footer .copiryit-text {
+  top: auto;
+  bottom: 10px;
+}
+.fake-fullscreen-active .copiryit-text {
+  top: auto;
+  bottom: 10px;
+}
+
+.fancybox__footer {
+  z-index: 22;
+}
+
+.fancybox__thumbs.is-horizontal {
+  bottom: 0;
+}
+.fancybox__thumbs.is-horizontal .f-thumbs__viewport {
+  padding-bottom: 26px;
+}
